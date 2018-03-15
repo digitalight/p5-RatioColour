@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Ratios using Colours</title>
+		<link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+		<link rel="stylesheet" href="style.css">
+		<!-- P5JS -->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.6.0/p5.min.js" integrity="sha256-GDuv15eqQpLqWvLkRnd+EvvsHLngEUnerY5BDSYfLuM=" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.6.0/addons/p5.dom.min.js" integrity="sha256-y2fVmZ3KhIiAHagP+4Ky9c9zqrm2IdBFHSxKXS99Ms4=" crossorigin="anonymous"></script>
+		<script src="sketch.js"></script>
+	</head>
+	<body>
+		
+		<div class="container">
+			<div class="row">
+				<h2 class="">Ratios using Colours</h2>
+			</div>
+			<div class="row">
+				<div class="col-sm">
+					<div class="card" id="cyanbox">
+						<div class="card-header">Cyan</div>
+						<div class="card-footer">
+							<div class="slider"><input id="cyan" type="range" min="0" max="10" step="1" value="0"><span id="cval"></span></div>
+						</div>
+					</div>
+					<div class="card" id="magentabox">
+						<div class="card-header">Magenta</div>
+						<div class="card-footer">
+							<div class="slider"><input id="magenta" type="range" min="0" max="10" step="1" value="0"><span id="mval"></span></div>
+						</div>
+					</div>
+					<div class="card" id="yellowbox">
+						<div class="card-header">Yellow</div>
+						<div class="card-footer">
+							<div class="slider"><input id="yellow" type="range" min="0" max="10" step="1" value="0"><span id="yval"></span></div>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm">
+					<div id="mixedpaint">
+						
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- JAVASCRIPT FRAMEWORKS -->
+		
+		<!-- Bootstrap -->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+		<!-- JQuery -->
+		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E=" crossorigin="anonymous"></script>
+	</body>
+</html>
