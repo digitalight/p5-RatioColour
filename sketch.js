@@ -52,10 +52,11 @@ let cval = document.getElementById("cval");
 let mval = document.getElementById("mval");
 let yval = document.getElementById("yval");
 s1 = int(cyan.value);
-s2 = int(magenta.value);
+//s2 = int(magenta.value);
+s2 = 0;
 s3 = int(yellow.value);
 cval.innerHTML = s1;
-mval.innerHTML = s2;
+//mval.innerHTML = s2;
 yval.innerHTML = s3;
 
 
@@ -65,7 +66,7 @@ if (s1 == s2 && s1 == s3 && s2 == s3 && s1 > 0) { //to fix bug
 } else {
 fill (cmy(o[0],o[1],o[2])); }
 rect(0,0,width,height-60);
-t = s1+":"+s2+":"+s3;
+t = s1+":"+s3;
 fill(0);
 textSize(32);
 console.log(o);
